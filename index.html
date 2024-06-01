@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firefly</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="heard-logo ">
+        <nav class="navbar navbar-expand-lg fixed-top ">
+
+            <img src="img/logo.png" alt="Firefly Logo" class="logo">
+        </nav>
+    </div>
+    <main>
+        <section class="hero">
+            <img src="img/backimg.png" alt="Firecrackers Banner" class="banner-img">
+            <div class="hero-text">
+                <h1>The choice is yours.<br>Because they don't have one</h1>
+                <button class="quick-view">QUICK VIEW</button>
+            </div>
+        </section>
+        <section class="about">
+            <div class="aboutStrip  ">
+                <img src="img/aboutStrip.png" alt="" class="aboutStrip-img">
+                <h2>About</h2>
+                <img src="img/aboutStrip.png" alt="" class="aboutStrip-img">
+            </div>
+            <div class="about-text">
+
+
+                <p>
+                    Our products are crafted exclusively from the dreams and screams of young kids who wanted to show
+                    their
+                </p>
+                <p>mastery in their chosen fields, but were directed towards a factory for daily wages. Each cracker
+                    bursts
+                    brighter than their lost smiles, and can</p>
+                <p>be heard louder than their cries for miles. Buy them, burst
+                    them, brag about them.
+                </p>
+            </div>
+            <p class="tagline">The choice is yours. Because they don’t have one.</p>
+        </section>
+        <section class="products">
+            <div class="aboutStrip  ">
+                <img src="img/aboutStrip.png" alt="" class="aboutStrip-img2 ">
+                <h2>Our products</h2>
+                <img src="img/aboutStrip.png" alt="" class="aboutStrip-img2">
+            </div>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img/product.png" alt="Raju Rassibomb">
+                    <div class="item-text d-flex justify-content-between pt-2">
+                        <h3>Raju Rassibomb</h3>
+                        <button class="quick-view" data-toggle="modal" data-target="#productModal">QUICK VIEW</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="img/product.png" alt="Ladiyon ki Rani Chani">
+                    <div class="item-text d-flex justify-content-between pt-2">
+                        <h3>Ladiyon ki Rani Chani</h3>
+                        <button class="quick-view" data-toggle="modal" data-target="#productModal1">QUICK VIEW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <!-- Trigger button
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal">
+                    Quick View
+                </button> -->
+
+                <!-- Modal -->
+                <div class="modal fade" id="productModal" tabindex="-1" role="dialog"
+                    aria-labelledby="productModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="p-1 w-1 d-flex justify-content-end">
+                                <!-- <h5 class="modal-title" id="productModalLabel">Raju Rassibomb</h5> -->
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body content">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="img/product.png" alt="Raju Rassibomb" class=" main-img">
+                                        <div class="row mt-2 ">
+                                            <div class="col-3">
+                                                <img src="img/product1_thumb.png" alt="Thumbnail 1"
+                                                    class="img-fluid thumbnail">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="img/product1_thumb.png" alt="Thumbnail 2"
+                                                    class="img-fluid thumbnail">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="img/product.png" alt="Thumbnail 3"
+                                                    class="img-fluid thumbnail">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="img/product.png" alt="Thumbnail 4"
+                                                    class="img-fluid thumbnail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 body-content">
+                                        <div class="d-flex justify-content-between pb-2">
+                                            <h5 class="modal-title" id="productModalLabel">Raju Rassibomb</h5>
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button> -->
+                                        </div>
+                                        <div class="view-content">
+
+                                            <div>
+                                                <p>MRP:</p>
+                                                <p class="ord-text "><strong> Raju’s Dreams/-</strong></p>
+                                                <img src="img/border.png" alt="view-line">
+                                                <p><strong>Product Description:</strong></p>
+                                                <p>This product packs an extra punch,
+                                                <p>thanks to the literal blood, sweat and</p>
+                                                <p>tears
+                                                    of a young boy.</p>
+
+                                                <img src="img/border.png" alt="" class="view-line">
+                                            </div>
+                                            <div class="product-detail">
+                                                <p><strong>Product Contents:</strong></p>
+                                                <ul>
+                                                    <li>10 hand-hurting pieces of rassi bombs</li>
+                                                    <li>Filled with great pain</li>
+                                                    <li>Raju’s hopes</li>
+                                                </ul>
+                                                <button class="btn  btn-block"
+                                                    style="background: #FE0000; color: white;">PURCHASE</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <!-- Trigger button
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal">
+                    Quick View
+                </button> -->
+
+                <!-- Modal -->
+                <div class="modal fade" id="productModal1" tabindex="-1" role="dialog"
+                    aria-labelledby="productModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="p-1 w-1 d-flex justify-content-end">
+                                <!-- <h5 class="modal-title" id="productModalLabel">Raju Rassibomb</h5> -->
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body content">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="img/product.png" alt="Raju Rassibomb" class=" main-img">
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img src="img/product1_thumb.png" alt="Thumbnail 1"
+                                                    class="img-fluid thumbnail">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="img/product1_thumb.png" alt="Thumbnail 2"
+                                                    class="img-fluid thumbnail">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="img/product.png" alt="Thumbnail 3"
+                                                    class="img-fluid thumbnail">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="img/product.png" alt="Thumbnail 4"
+                                                    class="img-fluid thumbnail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 body-content">
+                                        <div class="d-flex justify-content-between pb-2">
+                                            <h5 class="modal-title" id="productModalLabel">Ladiyon ki Rani Chani</h5>
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button> -->
+                                        </div>
+                                        <div class="view-content">
+
+                                            <div>
+                                                <p>MRP:</p>
+                                                <p class="ord-text "><strong> Ladiyon ki Rani/-</strong></p>
+                                                <img src="img/border.png" alt="view-line">
+                                                <p><strong>Product Description:</strong></p>
+                                                <p>This product Contain diferent sizes of </p>
+                                                <p>ladiya which have good quality of </p>
+                                                <p>bomb attach to that ladiya’s.</p>
+
+                                                <img src="img/border.png" alt="" class="view-line">
+                                            </div>
+                                            <div class="product-detail">
+                                                <p><strong>Product Contents:</strong></p>
+                                                <ul>
+                                                    <li>10 hand-hurting pieces of rassi bombs</li>
+                                                    <li>Filled with great pain</li>
+                                                    <li>Raju’s hopes</li>
+                                                </ul>
+                                                <button class="btn  btn-block"
+                                                    style="background: #FE0000; color: white;">PURCHASE</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="img-yellow">
+            <img src="img/fline2.png" alt="Yellow Image" class="yellow-img">
+            <div class="img-org">
+                <img src="img/fline.png" alt="Orange Image" class="org-img">
+            </div>
+        </div>
+        <div class="social-links d-flex justify-content-between">
+            <div class="flower">
+                <img src="img/footter.png" alt="">
+            </div>
+            <div class="icon">
+
+                <h2 class="text">Follow us on</h2>
+                <div class="f-icon">
+
+                    <a href="#" class=" me-4">
+                        <i class=" bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class=" me-4">
+                        <i class=" bi bi-youtube"></i>
+                    </a>
+                    <a href="#" class=" me-4">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="#" class=" me-4">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#" class=" me-2">
+                        <i class=" bi bi-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="flower">
+                <img src="img/footter.png" alt="">
+            </div>
+        </div>
+        <div class="img-yellow">
+            <img src="img/fline2.png" alt="" class="y-img">
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous">
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

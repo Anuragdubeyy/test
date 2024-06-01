@@ -1,0 +1,456 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.navbar {
+    background: #1C1C1C33;
+    border: 1px solid transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100px;
+    margin-left: 4rem;
+
+}
+
+.hero {
+    position: relative;
+    text-align: start;
+    color: white;
+    
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 66%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 44px;
+    margin: 0;
+    align-items: self-start;
+}
+
+.quick-view {
+    background-color: white;
+    border: none;
+    color: #fE0000;
+    padding: 10px 20px;
+    width: 211px;
+    height: 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 2px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.quick-view:hover {
+    background-color: #fE0000;
+    color: white;
+}
+
+@media (max-width: 768px){
+    .banner-img {
+        height: 205px;
+    }
+    .hero-text h1 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .quick-view{
+        width: 85px;
+        height: 25px;
+        font-size: 7px;
+        font-weight: 600;
+    }
+   
+}
+
+/* about */
+.about {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.aboutStrip{
+    display: flex;
+    width: 100%;
+    gap: 4rem;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.aboutStrip h2{
+    color:  #F27121;
+    font-weight: 600;
+    font-size: 32px;
+    text-shadow: 0px 2px 0px #ECE14C;
+}
+
+.aboutStrip-img{
+    width: 420px;
+    height: 9px;
+    position: relative;
+    top: 15px
+}
+
+.aboutStrip-img2{
+    width: 420px;
+    height: 9px;
+    position: relative;
+    top: 15px
+}
+.about h2 {
+    margin-top: 0;
+}
+
+.about-text{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.about p {
+    align-content: center;
+}
+
+.tagline {
+    font-weight: bold;
+}
+
+/* product */
+
+.products {
+    padding: 10px;
+    text-align: center;
+}
+
+.product-list {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 584px;
+    height: 530px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.item-text h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.item-text .quick-view {
+    background-color: #fE0000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 211px;
+    height: 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+.item-text .quick-view:hover{
+    background-color: wheat;
+    color: #fE0000
+}
+
+/* footer */
+footer {
+    background-color:  #25A769;
+    color: white;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.img-yellow {
+    position: relative;
+    display: inline-block;
+    top: -11px;
+}
+
+.yellow-img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-org {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.org-img {
+    width: 130%;
+    height: auto;
+}
+
+.img-yellow .y-img{
+    width: 100%;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.flower img{
+    width: 55px;
+    height: 76px;
+    padding: 6px;
+    padding-top: 2px;
+}
+
+.icon .text{
+    color: #ECE14C;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Neue system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 10px ;
+    padding: 0px;
+    
+}
+.f-icon a{
+    background-color: black;
+    padding: 5px 6px;
+    border-radius: 16px;
+    margin: 0 5px;
+    color: #25A769;
+}
+
+.f-icon a i{
+    padding-left: 3px;
+}
+
+
+
+
+
+
+
+
+/* modal */
+.modal{
+    background-color: rgba(222, 184, 135, 0.336);
+}
+.modal-body{
+    top: -2rem;
+}
+
+.modal-content{
+    width: 1140px !important;
+    height: 540px;
+    left: -10rem;
+    
+}
+
+.product-detail .btn{
+    width: 218px;
+    height: 50px;
+
+}
+
+.body-content{
+    position: relative;
+    left: 10rem;
+}
+
+.thumbnail {
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.thumbnail:hover {
+    border-color: #ff4500;
+}
+
+.main-img {
+    width: 700px;
+    height: 390px;
+}
+
+.img-fluid {
+    width: 178px !important;
+    height: 87px !important;
+}
+
+/* mobile responsive */
+@media (max-width: 768px) {
+    
+    /* about */
+
+    .aboutStrip-img {
+        width: 148px;
+        height: 4px;
+        margin-top: 0.3rem;
+    }
+
+    .aboutStrip-img2{
+        width: 106px;
+        height: 4px;
+        margin-top: 0.3rem;
+    }
+
+     .aboutStrip {
+        gap:1.3rem;
+        padding-top: 0px;
+    }
+
+    .aboutStrip h2 {
+        
+        font-size: 26px;
+    }
+
+    .about p {
+        font-size: 10px;
+    }
+
+    /* product */
+
+    .product-item {
+        padding: 2px;
+        width: 192px;
+        height: 275px;
+    }
+
+    .product-item img {
+        width: 185px;
+        height: 200.85px;
+    }
+    .item-text h3 {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 0px;
+        }
+
+    .item-text .quick-view{
+    width: 90px;
+    height: 27px;
+    font-size: 8px;
+    font-weight: 600;
+    margin: 25px 2px;
+    }
+
+    /* footer */
+    footer {
+        margin-top: 32px;
+    }
+
+    .f-icon a {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .img-yellow .y-img{
+        width: 100%;
+    }
+
+    /* modal */
+    .main-img{
+        width: 356px;
+        height: 207px;
+    }
+
+    .img-fluid {
+        width: 75px;
+        height: 25px;
+    }
+
+    .content{
+        width: 381px;
+        height: 520px;
+    }
+
+    .modal-body{
+        padding: 1rem;
+    top: -1rem;
+    left: 0.5rem;
+    }
+
+    .modal-content{
+        width: 100% !important;
+        margin-top: 14rem !important;
+        -ms-transform-origin-x: 0.5rem;
+        left: 0rem;
+        height: 600px;
+    }
+    .view-content{
+        display: flex;
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .view-content p{
+        margin-bottom: 0px !important;
+    }
+
+    .view-content .view-line{
+        width: 4rem;
+    }
+    .body-content{
+        position: relative;
+        left: 0rem;
+    }
+
+    .thumbnail {
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    .view-content img {
+        width: 9rem !important;
+        margin: 10px 0;
+    }
+    .ord-text {
+        font-size: 1.2em;
+    }
+    .view-content {
+        font-size: 0.9em;
+    }
+
+    .product-detail .btn{
+        width: 100px;
+        height: 32px;
+    }
+}
